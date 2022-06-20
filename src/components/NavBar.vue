@@ -1,5 +1,9 @@
 <template>
-  <h2>NavBar</h2>
+  <nav class="navbar navbar-dark bg-success navbar-expend-sm">
+      <div class="container">
+        <router-link to="/" class="navbar-brand"><i class="fa fa-mobile"></i> Vue Contact Manager</router-link>
+      </div>
+  </nav>
 </template>
 
 <script>
