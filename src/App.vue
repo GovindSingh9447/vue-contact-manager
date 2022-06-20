@@ -12,7 +12,7 @@
 
 bootstrap font-awesome axios
 
-npm install @fortawesome/fontawesome-free
+npm install bootstrap @fortawesome/fontawesome-free
 
 
 <style>
