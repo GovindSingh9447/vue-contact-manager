@@ -1,5 +1,6 @@
 <template>
 <h2>App Components</h2>
+
 </template>
 
 <script>
