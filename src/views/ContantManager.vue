@@ -26,7 +26,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="card">
+        <div class="card my-2 list-group-item-success">
           <div class="card-body">
             <div class="row">
               <div class="col-sm-4">
