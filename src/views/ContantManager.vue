@@ -8,11 +8,39 @@
         <p class="fst-italic">Lorn lorn lorn lorn lorn lorn lorn lorn lorm lorn lorn lorn lorn lorn lorn lorn lorn lorm lorn lorn lorn lorn lorn lorn lorn lorn lorm lorn lorn lorn lorn lorn lorn lorn lorn lorm lorn lorn lorn lorn lorn lorn lorn lorn lorm lorn lorn lorn lorn lorn lprn </p>
         <form>
           <div class="row">
-            <div class="col">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col">
               <input type="text" class="form-control" placeholder="Search Name">
+            </div>
+            <div class="col">
+              <input type="submit" class="btn btn-outline-dark">
+            </div>
+              </div>
             </div>
           </div>
         </form>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-4">
+
+              </div>
+              <div class="col-sm-7">
+
+              </div>
+              <div class="col-sm-1">
+                
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
