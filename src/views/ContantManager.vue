@@ -23,7 +23,7 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container mt-3" v-if="contacts.length>0">
     <div class="row">
       <div class="col-md-6">
         <div class="card my-2 list-group-item-success shadow-lg">
@@ -59,8 +59,39 @@
 </template>
 
 <script>
+import { ContactService } from '@/services/ContactService';
+
+
 export default {
-    name:'ContantManager'
+    name:'ContantManager',
+    data:function(){
+      return{
+        loading : false,
+      contacts : [],
+      errorMessage : null
+
+      }
+      
+    },
+    create : async function(){
+
+      try {
+
+        this.loading=true;
+        let response = await ContactService.getAllContacts();
+        this.contacts=response.data;
+        this.loading=false;
+        
+      } catch (error) {
+        this.errorMessage=error;
+        this.loading=false;
+        
+      }
+      
+    },
+    methods: {
+      
+    }
 
 }
 </script>
