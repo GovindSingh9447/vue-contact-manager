@@ -5,7 +5,14 @@
         <p class="h3 text-success fw-bold">Contact Manager
           <router-link to="/contacts/add" class="btn btn-success btn-sm"><i class="fa fa-plus-circle"></i> New</router-link>
         </p>
-        <p class="fst-italic">Lorn lorn lorn lorn lorn lorn lorn lorn lorm lorn lorn lorn lorn lorn lprn </p>
+        <p class="fst-italic">Lorn lorn lorn lorn lorn lorn lorn lorn lorm lorn lorn lorn lorn lorn lorn lorn lorn lorm lorn lorn lorn lorn lorn lorn lorn lorn lorm lorn lorn lorn lorn lorn lorn lorn lorn lorm lorn lorn lorn lorn lorn lorn lorn lorn lorm lorn lorn lorn lorn lorn lprn </p>
+        <form>
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Search Name">
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </div>
