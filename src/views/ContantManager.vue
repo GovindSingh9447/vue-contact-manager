@@ -23,8 +23,8 @@
       </div>
     </div>
   </div>
-  <pre>{{contacts}}</pre>
-  <div class="container mt-3" v-if="contacts.length>0">
+ 
+  <div class="container mt-3">
     <div class="row">
       <div class="col-md-6">
         <div class="card my-2 list-group-item-success shadow-lg">
