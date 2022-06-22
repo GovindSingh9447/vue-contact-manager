@@ -23,6 +23,7 @@
       </div>
     </div>
   </div>
+  <pre>{{contacts}}</pre>
   <div class="container mt-3" v-if="contacts.length>0">
     <div class="row">
       <div class="col-md-6">
